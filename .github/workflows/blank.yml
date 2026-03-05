@@ -21,4 +21,4 @@ jobs:
         run: exit 1
 
       - name: This step will never run
-        run: echo "If you see this, the workflow did not fail"
+        # run: echo "If you see this, the workflow did not fail"
