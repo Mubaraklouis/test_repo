@@ -17,8 +17,5 @@ jobs:
       - name: Run a one-line script
         run: echo Hello, world!
 
-      - name: Intentional failure for testing
-        run: exit 1
-
-      - name: This step will never run
+      - name: Workflow completion check
         run: echo "If you see this, the workflow did not fail"
